@@ -1,0 +1,23 @@
+{
+    "name": "max/hyperf-var-dumper",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/topyao/max-hyperf-var-dumper",
+    "autoload": {
+        "psr-4": {
+            "Max\\HyperfVarDumper\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "chengyao",
+            "email": "987861463@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "symfony/var-dumper": ">5.4.0"
+    }
+}
