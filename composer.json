@@ -18,6 +18,8 @@
     ],
     "require": {
         "php": ">=7.4",
-        "symfony/var-dumper": ">5.4.0"
+        "symfony/var-dumper": "*",
+        "psr/http-message": "*",
+        "hyperf/exception-handler": "*"
     }
 }
